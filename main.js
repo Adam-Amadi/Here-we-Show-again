@@ -1,3 +1,8 @@
+// WORKING AS A TEAM
+// 1. Mark Nelson
+// 2. Nita Burton
+// 3. Adam Amadi 
+
 // // Here We SHOW Again Katas
 const parentElement = document.querySelector ('.katas-list')
 
