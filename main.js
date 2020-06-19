@@ -245,12 +245,14 @@ const kata1Heading = document.createElement ('div')
 // 16. Display the sum of all the elements in sampleArray.
 console.log('%cKATA 16 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-for (let counter = 0; counter < sampleArray.length; counter ++){
-    let currentElement = sampleArray[counter];
-    const kata1Heading = document.createElement ('div')
-    parentElement.append (kata1Heading);
-    kata1Heading.append ('KATA 16:' +(currentElement + currentElement));
+let variable2 = 0
+for (let counter = 0; counter < sampleArray.length; counter += 1) {
+    variable2 = variable2 + sampleArray [counter];
 }
+const kataHeading = document.createElement ('div');
+parentElement.append (kataHeading);
+kataHeading.append ('KATA 16: ' + variable2);
+
 
 // 17. Display the smallest element in sampleArray.
 console.log('%cKATA 17 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
